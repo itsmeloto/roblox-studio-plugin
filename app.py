@@ -35,7 +35,7 @@ def get_conversation_id(username: str, conversation_id: Optional[str] = None) ->
 def index():
     """Root endpoint."""
     return jsonify({
-        "name": "Roblox Studio AI Plugin Server",
+        "name": "Zuko-AI Studio Assistant",
         "version": "2.0.0",
         "status": "running"
     })
